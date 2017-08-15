@@ -5,5 +5,5 @@ description: A stylish blog using the Solarized color palette
 permalink: /:year/:month/:day/:title/
 paginate: 10
 
-plugins: [jekyll-paginate]
+gems: [jekyll-paginate]
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
