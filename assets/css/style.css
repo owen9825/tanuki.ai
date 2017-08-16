@@ -78,6 +78,7 @@ acronym, abbr {
 
 h1 {
 	font-size: 17px;
+    font-family: 'art-deco';
 	margin: 0 0 10px 0;
 }
 h2 {
@@ -258,6 +259,14 @@ img.center {
        url('../fonts/solarthemeicons.svg#solarthemeicons') format('svg');
   font-weight: normal;
   font-style: normal;
+}
+
+/*** Art Deco ***/
+@font-face {
+    font-family: 'art-deco';
+    src: url('../fonts/parisian.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 [class^="icon-"]:before, [class*=" icon-"]:before {
