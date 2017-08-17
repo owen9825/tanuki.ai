@@ -1,25 +1,26 @@
 html, body {
-	background-color: #fdf6e3;
-	color: #839496;
+	background-color: #fdf6e3; /* sandy background colour */
+	color: #839496; /* cobalt blue */
 }
 
+/* hyperlinks for sidebar */
 a, a:visited, a:active {
-	color: #2aa198;
-	border-color: #eee8d5;
+	color: #2aa198; /* teal */
+	border-color: #eee8d5; /* dull gray */
 }
 
 a:hover {
-	background-color: #eee8d5;
+	background-color: #eee8d5; /* highlight links upon hovering − dull grey */
 	border-color: #eee8d5;
 	color: #2aa198;
 }
 
 h1, h2, h3 {
-	color: #cb4b16;
+	color: #cb4b16; /* bold orange */
 }
 
 h1 a, h1 a:visited, h1 a:active {
-	color: #cb4b16;
+	color: #cb4b16; /* bold orange */
 }
 
 h1 a:hover {
@@ -36,8 +37,8 @@ blockquote {
 }
 
 #sidebar a:hover {
-	color: #2aa198;
-	background-color: #eee8d5;
+	color: #2aa198; /* teal */
+	background-color: #eee8d5; /* dull grey */
 }
 
 #footer {
