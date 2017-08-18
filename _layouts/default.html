@@ -20,7 +20,12 @@
 
   <header id="header">
     <h1><a href="{{ site.baseurl }}/"><i class="icon-sun"></i> {{ site.name }}</a></h1>
-    <p>{{ site.description }}</p>
+    <p>{{ site.description }}
+    <object type="image/svg+xml"
+    width="100%" height="40px" style="float:right"
+    data="{{ site.baseurl }}/images/horizontal.svg">
+  <span/></object>
+    </p>
   </header>
 
 
@@ -52,7 +57,7 @@
 
 
   <footer id="footer">
-    <p class="copyright">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.name }}. Powered by <a href="http://jekyllrb.com">Jekyll</a>, theme by <a href="http://www.webmaster-source.com">Matt Harzewski</a></p>
+    <p class="copyright">Copyright &copy; {{ site.time | date: '%Y' }} {{ site.name }}. Powered by <a href="http://jekyllrb.com">Jekyll</a>, theme by <a href="http://www.webmaster-source.com">Matt Harzewski</a>. Line art designed by <a href='http://www.freepik.com/free-vector/line-ornaments-set_829692.htm'>Freepik</a></p>
   </footer>
 
 
