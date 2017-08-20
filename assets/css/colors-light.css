@@ -1,16 +1,16 @@
 html, body {
 	background-color: #fdf6e3; /* sandy background colour */
-	color: #839496; /* cobalt blue */
+	color: #839496; /* bluish gray */
 }
 
 /* hyperlinks for sidebar */
 a, a:visited, a:active {
 	color: #2aa198; /* teal */
-	border-color: #eee8d5; /* dull gray */
+	border-color: #eee8d5; /* pearl */
 }
 
 a:hover {
-	background-color: #eee8d5; /* highlight links upon hovering − dull grey */
+	background-color: #eee8d5; /* highlight links upon hovering − pearl */
 	border-color: #eee8d5;
 	color: #2aa198;
 }
@@ -38,7 +38,7 @@ blockquote {
 
 #sidebar a:hover {
 	color: #2aa198; /* teal */
-	background-color: #eee8d5; /* dull grey */
+	background-color: #eee8d5; /* pearl */
 }
 
 #footer {
