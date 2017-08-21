@@ -44,3 +44,10 @@ blockquote {
 #footer {
 	border-color: #073642;
 }
+
+input.btn {
+    background-color: #83d496; /* la fée verte */
+    font-family: 'art-deco', fantasy;
+    font-size: 27px;
+    color: #073642; /* dark gray */
+}
