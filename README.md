@@ -1,7 +1,7 @@
 barfly.ai
 ======================
 
-This site is based on @mattvh's [Solar Theme for Jekyll](https://github.com/mattvh/solar-theme-jekyll)
+This site is based on @[mattvh](https://github.com/mattvh)'s [Solar Theme for Jekyll](https://github.com/mattvh/solar-theme-jekyll)
 
 Installation
 --------------
