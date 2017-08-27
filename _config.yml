@@ -6,5 +6,5 @@ baseurl : /barfly.ai
 permalink: /:title/
 paginate: 100
 
-plugins: [jekyll-paginate]
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+plugins: [jekyll-paginate, jekyll-bower]
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'bower.json', 'node_modules', 'package.json']

@@ -26,8 +26,16 @@ title:  barfly.ai | visual analytics for hospitality
   <label for="name">Name:</label>
   <input type="text" name='name' placeholder="Your name" class="form-control"/>
   <label for="email">Email address:</label>
-  <input type="email" name="email" id="email" placeholder="hello@example.com" class="form-control">
+  <input type="email" name="email" id="email" placeholder="hello@example.com" class="form-control"/>
+  <label for="phone">Phone:</label>
+  <input type="tel" id="phone" name="phone" class="form-control"/>
   <label for="message">Message:</label>
   <textarea name="message" placeholder="Hello, I'd like to start analyzing my bar!"></textarea>
   <input type='submit' value='Submit' class="btn"/>
 </form>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/bower_components/intl-tel-input/build/js/intlTelInput.js"></script>
+<script>
+  $("#phone").intlTelInput({"preferredCountries":["us","ca"], "utilsScript":"{{ site.baseurl }}/bower_components/intl-tel-input/build/js/utils.js"});
+</script>

@@ -1,0 +1,22 @@
+{
+  "name": "barfly.ai",
+  "homepage": "https://github.com/owen9825/barfly.ai",
+  "authors": [
+    "Owen Miller <owen9825@gmail.com>"
+  ],
+  "description": "Website for barfly.ai",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "intl-tel-input": "^12.0.1"
+  }
+}
