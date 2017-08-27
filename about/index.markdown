@@ -7,4 +7,4 @@ barfly.ai aims to help bars be more effective and more profitable than ever befo
 
 Whether it's tracking how often a patron returns or how many drinks the average customer purchases, all of this data can and should be leveraged to make more informed decisions on happy hours, daily specials, theme nights, and even how the bar is designed.
 
-Without using any analytics, all the valuable data created by bar patrons simply goes to waste. barfly.ai wants to empower bars everywhere to better serve their customers and become more profitable at the same time.
+Without any analytics, all the valuable data created by bar patrons simply goes to waste. barfly.ai wants to empower bars everywhere to better serve their customers and become more profitable at the same time.
