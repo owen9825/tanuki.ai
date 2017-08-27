@@ -32,8 +32,8 @@ table {
 
 /*** Basics ***/
 body {
-	font-family: fantasy, Verdana, serif;
-	font-size: 13px;
+	font-family: 'din', fantasy, serif;
+	font-size: 14px;
 	line-height: 1.7;
 }
 
@@ -49,7 +49,7 @@ a:hover {
 
 form, input, textarea {
     width:100%;
-    font-family: fantasy;
+    font-family: 'din', fantasy;
 }
 
 p, pre { margin-bottom: 15px; }
@@ -257,6 +257,14 @@ img.center {
 @font-face {
     font-family: 'art-deco';
     src: url('../fonts/parisian.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*** Din ***/
+@font-face {
+    font-family: 'din';
+    src: url('../fonts/din1451alt.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
