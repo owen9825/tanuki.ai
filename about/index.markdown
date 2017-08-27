@@ -9,6 +9,4 @@ Whether it's tracking how often a patron returns or how many drinks the average 
 
 Did the new trivia night attract any regulars or were all the players new? Do those new drafts on tap draw in any fresh customers? Is Wine Wednesday picking up in popularity? How much does the pool table get used?
 
-<img src="https://github.com/owen9825/barfly.ai/blob/master/images/bar-patron-scanned.png" alt="bar software scanning patrons">
-
 Without any analytics, all the valuable data created by bar patrons simply goes to waste. barfly.ai wants to empower bars everywhere to better serve their customers and become more profitable at the same time.
