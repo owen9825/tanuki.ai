@@ -122,7 +122,7 @@ h3 {
 
 #header {
 	width: 500px;
-	margin: 40px auto 50px auto;
+	margin: 40px auto 20px auto;
 }
 #header h1 {
 	font-size: 4.2em;
@@ -166,7 +166,25 @@ h3 {
 	padding: 2px 4px;
 }
 
+div .horizontal-container {
+    display: inline-block;
+}
 
+.embellished {
+    /* Don't use «border», it's short for border-width, border-style (required), border-color */
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 40px;
+    border-bottom-style: solid; /* solid vs dashed, grooved etc */
+    border-bottom-color: transparent;
+    /* art deco */
+    border-image-source: url(../../images/horizontal-bar-optimised.svg);
+    border-image-slice: 100% 0%; /* top, right, bottom, left */
+    border-image-width: 0 0 1 0; /* multipliers of border-width for top, right, bottom, left */
+    border-image-repeat: stretch; ; /* space doesn't work in any browser */
+    /*border-image-outset: 30px;*/
+}
 
 /*** Posts ***/
 article {
@@ -248,7 +266,7 @@ img.center {
 
 	#sidebar nav select.mnav {
 		display: block;
-		margin-bottom: 15px;
+		margin-bottom: 15px; /* Margin is outside the border */
 	}
 
 }
