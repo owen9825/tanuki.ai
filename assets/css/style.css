@@ -173,17 +173,15 @@ div .horizontal-container {
 .embellished {
     /* Don't use «border», it's short for border-width, border-style (required), border-color */
     border-top-width: 0px;
-    border-left-width: 0px;
-    border-right-width: 0px;
+    border-left-width: 40px;
+    border-right-width: 40px;
     border-bottom-width: 40px;
-    border-bottom-style: solid; /* solid vs dashed, grooved etc */
-    border-bottom-color: transparent;
     /* art deco */
-    border-image-source: url(../../images/horizontal-bar-optimised.svg);
-    border-image-slice: 100% 0%; /* top, right, bottom, left */
-    border-image-width: 0 0 1 0; /* multipliers of border-width for top, right, bottom, left */
-    border-image-repeat: stretch; ; /* space doesn't work in any browser */
-    /*border-image-outset: 30px;*/
+    border-style: solid;
+    border-bottom-color: transparent;
+    border-width: 0px 90px 40px;
+    border-image: url(../../images/short-bar-optimised.svg) 0 90 100% stretch repeat;
+    /*border-image is short for source, slice, width, outset, repeat */
 }
 
 /*** Posts ***/
