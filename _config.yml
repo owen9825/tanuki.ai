@@ -1,7 +1,16 @@
-name: barfly.ai
-github.url: https://owen9825.github.io/barfly.ai/
-description: We connect bars with good data on their patrons for better decisions
+name: tanuki.ai
+japanese_description: 狸 - ホスピタリティアナリティクス
+github.url: https://owen9825.github.io/tanuki.ai/
+description: Tanuki analyses visual cues to provide actionable insight for bars and izakayas
 baseurl : ''
+locale: "en"
+timezone: "America/New_York"
+
+# SEO Related
+google_site_verification : "0A7lujqdMfsMCZG3xbUnpd2LT4ECBCXrKqScuG4nvNE"
+bing_site_verification   : "7D866336EBF5D0BAD8327269CD856D25"
+alexa_site_verification  :
+yandex_site_verification : "3a75bcf8604c5496"
 
 permalink: /:title/
 paginate: 100

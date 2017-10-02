@@ -1,43 +1,43 @@
 html, body {
-	background-color: #002a35; /* very dark blue */
+	background-color: #272822; /* Sublime black */
 	color: #839496; /* cobalt blue */
 }
 
 a, a:visited, a:active {
-	color: #de9d8d; /* rose gold */
+	color: #a5937b; /* faded gold */
 	border-color: #073642; /* dark gray */
 }
 
 a:hover {
 	background-color: #073642;
 	border-color: #073642;
-	color: #de9d8d;
+	color: #a5937b;
 }
 
 h1, h2, h3 {
-	color: #de9d8d; /* rose gold */
+	color: #a5937b; /* faded gold */
 }
 
 h1 a, h1 a:visited, h1 a:active {
-	color: #de9d8d;
+	color: #a5937b;
 }
 
 h1 a:hover {
 	background-color: #073642;
 	border-color: #073642;
-	color: #de9d8d;
+	color: #a5937b;
 }
 
 article h1 a.anchor {
-	color: #de9d8d;
+	color: #a5937b;
 }
 
 blockquote {
-	border-color: #de9d8d;
+	border-color: #a5937b;
 }
 
 #sidebar a:hover {
-	color: #de9d8d;
+	color: #a5937b;
 	background-color: #073642;
 }
 
@@ -49,5 +49,5 @@ input.btn {
     background-color: #83d496; /* la fée verte */
     font-family: 'art-deco', fantasy;
     font-size: 27px;
-    color: #073642; /* dark gray */
+    color: #073642; /* dark grey */
 }

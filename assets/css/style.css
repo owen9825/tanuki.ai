@@ -18,6 +18,7 @@ ol, ul {
 }
 blockquote, q {
 	quotes: none;
+    font-family: 'Press Start 2P', cursive;
 }
 blockquote:before, blockquote:after, q:before, q:after {
 	content: '';
@@ -83,7 +84,7 @@ acronym, abbr {
 
 h1 {
 	font-size: 40px;
-    font-family: 'art-deco', fantasy;
+    font-family: 'Carter One', cursive;
 	margin: 0 0 10px 0;
 }
 h2 {
@@ -123,6 +124,7 @@ h3 {
 #header {
 	width: 500px;
 	margin: 40px auto 20px auto;
+    text-align: right;
 }
 #header h1 {
 	font-size: 4.2em;
@@ -155,13 +157,13 @@ h3 {
 
 #sidebar li {
 	list-style: none;
-    font-family: 'art-deco', fantasy;
+    font-family: 'Cartor One', cursive;
 	margin: 2px 0;
 }
 
 #sidebar a {
 	border: none;
-	font-family: 'art-deco', fantasy;
+	font-family: 'Carter One', fantasy;
     font-size: 2.2em;
 	padding: 2px 4px;
 }
@@ -190,7 +192,7 @@ article {
 }
 
 article h1 {
-	font-size: 30px;
+	font-size: 20px;
 	margin: 0 0 10px 0;
 }
 article h1 a {
@@ -267,14 +269,6 @@ img.center {
 		margin-bottom: 15px; /* Margin is outside the border */
 	}
 
-}
-
-/*** Art Deco ***/
-@font-face {
-    font-family: 'art-deco';
-    src: url('../fonts/parisian.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
 }
 
 /*** Din ***/
