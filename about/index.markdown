@@ -1,12 +1,10 @@
 ---
-layout: default
+layout: post
 title: About
 ---
 
-barfly.ai aims to help bars be more effective and more profitable than ever before. By leveraging technology that's already in place in a typical bar – think cameras and point-of-sale machines – we'll deliver analytics on how the business is doing.
+Tanuki.ai aims to help bars be more effective for patrons and hence owners. We will leverage technology that already exists a typical izakaya or bar – first, cameras and point-of-sale computers. This will deliver analytics on how the business is doing.
 
-Whether it's tracking how often a patron returns or how many drinks the average customer purchases, all of this data can and should be leveraged to make more informed decisions on happy hours, daily specials, theme nights, and even how the bar itself is designed.
+By using the patterns of bar events, we will learn what it *looks like* a minute before an order is typed into a point-of-sale computer. We can then be proactive in spotting who might like another drink. Today we recognise patrons, but later we recognise drinks, as well as all the objects and events that take place in a social environment.
 
-Did the new trivia night attract any regulars or were all the players new? Do those new drafts on tap draw in any fresh customers? Is Wine Wednesday picking up in popularity? How much does the pool table get used?
-
-Without any analytics, all the valuable data created by bar patrons simply goes to waste. barfly.ai wants to empower bars everywhere to better serve their customers and become more profitable at the same time.
+![pixellated array of drinks](../images/pixelated_drinks.jpg)
