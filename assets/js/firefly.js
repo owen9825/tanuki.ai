@@ -74,7 +74,8 @@ function sketch(num, sz, color, h, w) {
   };
 
   var szNum;
-  if (sz == "big") { szNum = 10; }
+  if (sz == "massive") { szNum = 10; }
+    else if (sz == "large") { szNum = 6; }
     else if (sz == "medium") { szNum = 5; }
     else if (sz == "small") { szNum = 3; }
     else if (sz == "tiny") { szNum = 1; }
@@ -84,7 +85,7 @@ function sketch(num, sz, color, h, w) {
     for (var i = 0; i < num; i++) {
       var randomX = Math.round(Math.random() * w);
       var randomY = Math.round(Math.random() * h);
-      var speed = .2 + Math.random() * 3;
+      var speed = .2 + Math.random() * 2;
       var size = Math.random() * szNum;
 
       var circle = new Circle(100, speed, size, randomX, randomY);
