@@ -4,5 +4,5 @@ _site
 s3_website.yml
 .ink-cache/
 Gemfile.lock
-.csv
-
+*.csv
+*.patch

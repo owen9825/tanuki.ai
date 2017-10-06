@@ -3,8 +3,9 @@ japanese_description: 狸 - ホスピタリティアナリティクス
 github.url: https://owen9825.github.io/tanuki.ai/
 description: Tanuki analyses visual cues to provide actionable insight for bars and izakayas
 baseurl : ''
-locale: "en"
+locale: "en-au"
 timezone: "America/New_York"
+url: tanuki.ai
 
 # SEO Related
 google_site_verification : "0A7lujqdMfsMCZG3xbUnpd2LT4ECBCXrKqScuG4nvNE"
@@ -15,5 +16,5 @@ yandex_site_verification : "3a75bcf8604c5496"
 permalink: /:title/
 paginate: 100
 
-plugins: [jekyll-paginate, jekyll-bower, s3_website]
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'bower.json', 'node_modules', 'package.json']
+plugins: [jekyll-paginate, jekyll-bower, jekyll-sitemap]
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'bower.json', 'node_modules', 'package.json', '*.patch', '*.csv']
