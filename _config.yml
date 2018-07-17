@@ -4,8 +4,8 @@ github.url: https://owen9825.github.io/tanuki.ai/
 description: Tanuki analyses visual cues to provide actionable insight for bars and izakayas
 baseurl : ''
 locale: "en-au"
-timezone: "America/New_York"
-url: tanuki.ai
+timezone: "Australia/Sydney"
+url: www.tanuki.ai
 
 # SEO Related
 google_site_verification : "0A7lujqdMfsMCZG3xbUnpd2LT4ECBCXrKqScuG4nvNE"
@@ -16,5 +16,8 @@ yandex_site_verification : "3a75bcf8604c5496"
 permalink: /:title/
 paginate: 100
 
-plugins: [jekyll-paginate, jekyll-bower, jekyll-sitemap]
+gems:
+  - jekyll-sitemap
+
+plugins_dir: [jekyll-paginate, jekyll-bower]
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'bower.json', 'node_modules', 'package.json', '*.patch', '*.csv']

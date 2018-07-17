@@ -3,8 +3,11 @@ layout: post
 title: About
 ---
 
-Tanuki.ai aims to help bars be more effective for patrons and hence owners. We will leverage technology that already exists a typical izakaya or bar – first, cameras and point-of-sale computers. This will deliver analytics on how the business is doing.
+Tanuki.ai is led by [Owen Miller](https://www.linkedin.com/in/owen-miller-12112273/), an avid believer in the use of software to augment the abilities of humans and in turn, societies. In younger years, Owen has been involved in the hospitality industry with roles such as bartending, as well as dealing Blackjack at private parties and at casinos.
 
-By using the patterns of bar events, we will learn what it *looks like* a minute before an order is typed into a point-of-sale computer. We can then be proactive in spotting who might like another drink. Today we recognise patrons, but later we recognise drinks, as well as all the objects and events that take place in a social environment.
+In recent years, Owen has worked as a software engineer at startups and as a member of the core recommendations team at Amazon.com.
 
-![pixellated array of drinks]({{ site.baseurl }}/images/pixelated_drinks.jpg)
+Tanuki is based between Sydney and New York.
+
+To stay up to date with Tanuki's progress, please follow our [Facebook page](https://www.facebook.com/tanukiAI/)
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FtanukiAI%2Fvideos%2F1690359417654963%2F&show_text=1&width=560" width="560" height="407" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
