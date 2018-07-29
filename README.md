@@ -31,6 +31,7 @@ bundle exec jekyll serve
 Pushing changes
 -----------------
 * Change the URL in [_config.yml](/_config.yml)
+* Rebuild (`bundle exec jekyll build`)
 * Change the bucket in [s3_website.yml](/s3_website.yml)
 * Push the changes to your bucket: `s3_website push`
 
